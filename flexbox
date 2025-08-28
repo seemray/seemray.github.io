@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .flex-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+      }
+      .container {
+        background: #ef94cf;
+        color: #fff;
+        border-radius: 10px;
+        width: 250px;
+        height: 250px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 8px rgba(107, 29, 29, 0.1);
+        margin: 0;
+      }
+      .container h2 {
+        margin: 0 0 10px 0;
+      }
+      .container p {
+        margin: 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-layout">
+      <div class="container">
+        <h2>George Russell</h2>
+        <p>
+         Goat but he's not really goat actually
+        </p>
+      </div>
+      <div class="container">
+        <h2>Oscar Piastri</h2>
+        <p>
+        McLaren goat
+        </p>
+      </div>
+      <div class="container">
+        <h2>Lando Norris</h2>
+        <p>
+         McLaren goat (2)
+        </p>
+      </div>
+      <div class="container">
+        <h2>Max Verstappen</h2>
+        <p>
+        Redbull goat
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
